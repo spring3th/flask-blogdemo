@@ -1,0 +1,11 @@
+你好 {{ user.username }},
+
+欢迎来到 Sika！
+
+请验证你的邮箱 
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+Sika
+
+PS: 请勿回复此邮件

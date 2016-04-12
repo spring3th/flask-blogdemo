@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/flask-blogdemo.iml" filepath="$PROJECT_DIR$/.idea/flask-blogdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sika/.idea/sika.iml" filepath="$PROJECT_DIR$/../sika/.idea/sika.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Sika - 登陆{% endblock %}
+{% block page_content %}
+<div class="page-header">
+    <h1>登陆</h1>
+</div>
+<div id='login' class="col-md-4">
+    {{ wtf.quick_form(form) }}
+    <br>
+    <p>忘记密码? <a href="{{ url_for('auth.password_reset_request') }}">点此找回</a>.</p>
+    <p>还没有注册？<a href="{{ url_for('auth.register') }}">点击注册</a>.</p>
+</div>
+{% endblock %}
